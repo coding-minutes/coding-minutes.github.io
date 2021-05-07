@@ -1,0 +1,226 @@
+body {
+  font-family: Nunito, sans-serif;
+  color: black;
+  background-color: #ebedee;
+}
+
+.nav-link{
+  color:white !important;
+  font-family: Nunito,sans-serif;
+  font-size: medium;
+  font-weight: 400;
+}
+.nav-link:hover {
+  border-bottom: 3px solid  #B2E63A;
+}
+
+#cover-banner {
+  background: url(imgs/rectangle_middle.svg);
+
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  color: white;
+}
+#course-banner {
+  background: url(imgs/rectangle_middle.svg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: dimgray;
+}
+
+#ad-banner {
+  padding: 1.2rem;
+  background: linear-gradient(to right, #d4fc79, #96e6a1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: dimgray;
+}
+
+#placement-banner {
+  padding: 1.2rem;
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  color: dimgray;
+}
+
+.section-header {
+  font-weight: 200;
+  font-weight: 200;
+}
+.live {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 0.25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.btn {
+  font: weight 600;
+  font-size: 1rem;
+  line-height: 1.5;
+  position: relative;
+  transition: all 0.2s ease;
+  border-radius: 50rem !important;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  background: url(imgs/rectangle_middle.svg) no-repeat;
+  background-size: cover;
+}
+
+.tag {
+  color: white;
+  background-color:#98C431;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.1rem;
+}
+
+.btn-white {
+  color: #273444;
+  background-color: white;
+  border-color: #fff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.btn-outline {
+  color: #fff;
+  border-color: #fff;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.btn-move:hover {
+  transform: translate(0, -5px);
+  transition: all 0.2s ease;
+}
+.cardhover:hover {
+  transform: translate(0, -10px);
+  transition: all 0.2s ease;
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.event-mentor {
+  block-size: 100px;
+  margin-top: -50px;
+}
+
+.rating {
+  font-weight: 700;
+}
+
+#placement-banner {
+  font-weight: 700;
+  color: white;
+  background: url(imgs/rectangle_middle.svg) no-repeat;
+  background-size: cover;
+  padding: 2rem;
+}
+
+.hovershadow {
+  background-color: rgb(252, 252, 252);
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.hovershadow:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.btn-static {
+  color: #373444;
+  border-color: #373444;
+  background-color: transparent;
+  border-radius: 50rem !important;
+  border: 1px solid#373444;
+}
+
+.btn-static:hover {
+  color: white;
+  border-color: white;
+  background-color: #9b03ff;
+  border-radius: 50rem !important;
+  border: 1px solid white;
+}
+
+.btn-simple {
+  color: gray;
+  background-color: transparent;
+}
+
+.circle {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: -50px;
+}
+
+#cicle-logo {
+  color: red;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#footer_img,
+#header_img {
+  position: absolute;
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+#footer{
+  background: url(imgs/rectangle_middle.svg) no-repeat;
+  background-size: cover;
+}
+#footer ul li{
+  margin-top: 1rem;
+}
+
+@media(max-width:500px){
+  .video-play{
+    width: 392px;
+    height:220px;
+    margin-top: 20px;;
+  }
+}
+
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+
+#faq .btn{
+  white-space:normal !important;
+  word-wrap:break-word;
+  color: black;
+  opacity: .80;
+}
+
+.social-link{
+  color:white !important;
+  font-family: Nunito,sans-serif;
+  font-size: medium;
+  font-weight: 400;
+}
