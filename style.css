@@ -79,7 +79,7 @@ body {
   padding: 0.25rem;
   border-radius: 0.5rem;
   padding: 0.5rem;
-  margin: 0.1rem;
+  /*margin: 0.1rem;*/
 }
 
 .btn-white {
@@ -191,13 +191,33 @@ body {
   margin-top: 1rem;
 }
 
+.boy{
+  height: 400px;
+}
+
+.reviews{
+  width :100%;
+}
+
 @media(max-width:500px){
   .video-play{
     width: 392px;
     height:220px;
     margin-top: 20px;;
   }
+  .girl{
+    height: 200px;
+  }
+  .boy{
+    height: 200px;
+  }
+  #google-signup{
+    width : 140px; 
+  }
+
+
 }
+
 
 @keyframes floating {
   from {
@@ -210,6 +230,12 @@ body {
     transform: translate(0, -0px);
   }
 }
+
+#signup iframe{
+  width:640px;  
+}
+
+
 
 #faq .btn{
   white-space:normal !important;
