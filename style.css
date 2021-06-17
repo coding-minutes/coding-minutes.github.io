@@ -296,6 +296,10 @@ body {
   width: 35px;
 }
 
+.mentor-image {
+  margin-top: -75px;
+}
+
 @media screen and (max-width: 575px){
   .circle {
     width: 75px;
