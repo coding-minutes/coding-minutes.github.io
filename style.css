@@ -1,3 +1,33 @@
+/* Global Variables */
+:root {
+  --primary-gradient-purple: linear-gradient(90deg, #5848EA 0%, #9549EB 100%);
+  /* --button-gradient: linear-gradient(90deg, #5848EA, #9549EB, #6CC644); */
+}
+
+.bg-purple {
+  background: #5848EA !important;
+}
+
+.bg-pink {
+  background: #9549EB !important;
+}
+
+.bg-green {
+  background: #6CC644 !important;
+}
+
+.text-purple {
+  color: #5848EA;
+}
+
+.text-pink {
+  color: #9549EB;
+}
+
+.text-green {
+  color: #6CC644;
+}
+
 body {
   font-family: Nunito, sans-serif;
   color: black;
@@ -15,19 +45,14 @@ body {
 }
 
 #cover-banner {
-  background: url(imgs/rectangle_middle.svg);
-
-  background-repeat: no-repeat;
+  background: var(--primary-gradient-purple);
   height: 100%;
   width: 100%;
-  background-size: cover;
   color: white;
 }
 #course-banner {
-  background: url(imgs/rectangle_middle.svg);
+  background: var(--primary-gradient-purple);
   height: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
   color: dimgray;
 }
 
@@ -40,15 +65,17 @@ body {
 }
 
 #placement-banner {
-  padding: 1.2rem;
-  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  padding: 2rem;
+  background: var(--primary-gradient-purple);
   color: dimgray;
+  color: white;
 }
 
 .section-header {
   font-weight: 200;
   font-weight: 200;
 }
+
 .live {
   background-color: red;
   color: white;
@@ -58,19 +85,81 @@ body {
   padding-right: 0.25rem;
 }
 
+/* Button Styles */
+@keyframes button-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .btn {
-  font: weight 600;
   font-size: 1rem;
-  line-height: 1.5;
+  padding: 0.75rem 1.5rem;
   position: relative;
   transition: all 0.2s ease;
   border-radius: 50rem !important;
+  font-weight: bold;
 }
 
-.bg-gradient-primary {
-  background: linear-gradient(90deg, #667eea, #764ba2);
-  background: url(imgs/rectangle_middle.svg) no-repeat;
-  background-size: cover;
+.btn-white {
+  color: #5848EA;
+  background-color: white;
+  border-color: #fff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.btn-primary {
+  background: var(--primary-gradient-purple);
+}
+
+.btn-outline {
+  color: #fff;
+  border-color: #fff;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.btn-move:hover {
+  padding: 0.74rem 2rem;
+  transition: all 0.2s ease;
+}
+
+.btn-static {
+  color: #5848EA;
+  border-color: #5848EA;
+  background-color: transparent;
+  border-radius: 50rem !important;
+  border: 1px solid#5848EA;
+}
+
+.btn-static:hover {
+  color: white;
+  border-color: white;
+  background: var(--primary-gradient-purple);
+  border-radius: 50rem !important;
+  border: 1px solid white;
+}
+
+.btn-simple {
+  color: gray;
+  background-color: transparent;
+}
+
+.btn-gradient-primary {
+  background: var(--primary-gradient-purple);
+  background-size: 150% 150%;
+  color: white;
+}
+
+.btn-gradient-primary:hover {
+  animation: button-gradient 3s ease infinite;
+  color: white;
 }
 
 .tag {
@@ -82,24 +171,6 @@ body {
   /*margin: 0.1rem;*/
 }
 
-.btn-white {
-  color: #273444;
-  background-color: white;
-  border-color: #fff;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
-}
-
-.btn-outline {
-  color: #fff;
-  border-color: #fff;
-  background-color: transparent;
-  border: 1px solid white;
-}
-
-.btn-move:hover {
-  transform: translate(0, -5px);
-  transition: all 0.2s ease;
-}
 .cardhover:hover {
   transform: translate(0, -10px);
   transition: all 0.2s ease;
@@ -115,14 +186,6 @@ body {
   font-weight: 700;
 }
 
-#placement-banner {
-  font-weight: 700;
-  color: white;
-  background: url(imgs/rectangle_middle.svg) no-repeat;
-  background-size: cover;
-  padding: 2rem;
-}
-
 .hovershadow {
   background-color: rgb(252, 252, 252);
   border: 1px solid rgba(0, 0, 0, 0);
@@ -132,27 +195,6 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background: white;
   border: 1px solid rgba(0, 0, 0, 0.125);
-}
-
-.btn-static {
-  color: #373444;
-  border-color: #373444;
-  background-color: transparent;
-  border-radius: 50rem !important;
-  border: 1px solid#373444;
-}
-
-.btn-static:hover {
-  color: white;
-  border-color: white;
-  background-color: #9b03ff;
-  border-radius: 50rem !important;
-  border: 1px solid white;
-}
-
-.btn-simple {
-  color: gray;
-  background-color: transparent;
 }
 
 .circle {
@@ -205,17 +247,18 @@ body {
     height:220px;
     margin-top: 20px;;
   }
+
   .girl{
     height: 200px;
   }
+
   .boy{
     height: 200px;
   }
+
   #google-signup{
     width : 140px; 
   }
-
-
 }
 
 
@@ -235,8 +278,6 @@ body {
   width:640px;  
 }
 
-
-
 #faq .btn{
   white-space:normal !important;
   word-wrap:break-word;
@@ -249,4 +290,19 @@ body {
   font-family: Nunito,sans-serif;
   font-size: medium;
   font-weight: 400;
+}
+
+.udemy-perk-logo {
+  width: 35px;
+}
+
+@media screen and (max-width: 575px){
+  .circle {
+    width: 75px;
+    height: 75px;
+  }
+
+  .udemy-perk-logo {
+    width: 25px;
+  }
 }
