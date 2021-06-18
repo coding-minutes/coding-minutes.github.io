@@ -300,6 +300,12 @@ body {
   margin-top: -75px;
 }
 
+#google-signup{
+  height: 800px;
+}
+
+
+
 @media screen and (max-width: 575px){
   .circle {
     width: 75px;
@@ -309,4 +315,16 @@ body {
   .udemy-perk-logo {
     width: 25px;
   }
+  
+  #google-signup{
+    max-width: 90%;
+  }
+  .slide-down-card{
+    margin-top: 50px;
+  }
+  .caption-card-small{
+    width: 90%;
+    margin : 0 auto;
+  }
+
 }
