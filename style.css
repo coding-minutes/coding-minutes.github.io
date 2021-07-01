@@ -248,14 +248,14 @@ body {
   /* border : 1px solid red; */
   display: inline-block;
   position: fixed;
-  bottom: 3%;
+  bottom: 5%;
   right: 3%;
   z-index: 10;
 }
 
 .whatsapp img{
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
 }
 
 
