@@ -1,4 +1,4 @@
-basic shell script
+#basic shell script
 #!/bin/bash
 echo enter your name
 read a
