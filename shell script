@@ -1,0 +1,5 @@
+basic shell script
+#!/bin/bash
+echo enter your name
+read a
+echo hi $a, have a good day
