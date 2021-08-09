@@ -4,6 +4,21 @@
   /* --button-gradient: linear-gradient(90deg, #5848EA, #9549EB, #6CC644); */
 }
 
+.announcement{
+  background-color:  #6bb329;
+  /*#7ac25b;*/
+  
+}
+.announcement a{
+  color:white;
+  text-decoration: none;
+  font-weight : 1000;
+  font-size: 1.2em;
+}
+.announcement a span{
+  color:yellow;;
+}
+
 .bg-purple {
   background: #5848EA !important;
 }
