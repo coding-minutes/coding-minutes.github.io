@@ -153,7 +153,23 @@ body {
   border: 1px solid#5848EA;
 }
 
+.btn-static-discord {
+  color: #5848EA;
+  border-color: #5848EA;
+  background-color: white;
+  border-radius: 50rem !important;
+  border: 1px solid#5848EA;
+}
+
 .btn-static:hover {
+  color: white;
+  border-color: white;
+  background: var(--primary-gradient-purple);
+  border-radius: 50rem !important;
+  border: 1px solid white;
+}
+
+.btn-static-discord:hover {
   color: white;
   border-color: white;
   background: var(--primary-gradient-purple);
