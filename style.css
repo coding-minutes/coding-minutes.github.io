@@ -153,7 +153,7 @@ body {
   border: 1px solid#5848EA;
 }
 
-.btn-static-discord {
+.discord-static-btn {
   color: #5848EA;
   border-color: #5848EA;
   background-color: white !important;
@@ -169,7 +169,7 @@ body {
   border: 1px solid white;
 }
 
-.btn-static-discord:hover {
+.discord-static-btn:hover {
   color: white;
   border-color: white;
   background: var(--primary-gradient-purple);
