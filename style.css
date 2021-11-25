@@ -352,6 +352,23 @@ body {
 #google-signup{
   height: 800px;
 }
+.test
+{
+  text-align: left; 
+}
+@media(max-width: 375px)
+{
+ .test {
+  font-size: 300%; 
+ }
+ 
+}
+ @media(max-width: 320px)
+ {
+  .test {
+   font-size: 250%; 
+  }
+ }
 
 
 
@@ -378,11 +395,12 @@ body {
 
 }
 
-@media screen and (max-width: 450px) {
+@media(max-width: 450px) {
 
   .discord{
     align-items: center;
-    width: auto;
+    
+    width: 90%;
   }
-  
 }
+
