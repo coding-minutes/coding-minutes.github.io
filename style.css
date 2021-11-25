@@ -156,7 +156,7 @@ body {
 .btn-static-discord {
   color: #5848EA;
   border-color: #5848EA;
-  background-color: white;
+  background-color: white !important;
   border-radius: 50rem !important;
   border: 1px solid#5848EA;
 }
