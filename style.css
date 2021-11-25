@@ -361,3 +361,12 @@ body {
   }
 
 }
+
+@media screen and (max-width: 450px) {
+
+  .discord{
+    align-items: center;
+    width: auto;
+  }
+  
+}
