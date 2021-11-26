@@ -390,13 +390,11 @@ body {
    margin: auto;
   }
 
-  .responsive-class {
+  /* .responsive-class {
     font-size: 2.5rem !important;
-  }
+  } */
   
   .responsive-button {
     margin-top: 430px;
   }
-
-
 }
