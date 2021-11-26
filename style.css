@@ -391,7 +391,7 @@ body {
   }
 
   .responsive-class {
-    font-size: 2.5rem;
+    font-size: 2.5rem !important;
   }
   
   .responsive-button {
