@@ -378,11 +378,25 @@ body {
 
 }
 
+
+
 @media screen and (max-width: 450px) {
 
   .discord{
-    align-items: center;
-    width: auto;
+   position: absolute;
+   left: 10%;
+   width: 280px;
+   height: 450px;
+   margin: auto;
+  }
+
+  .responsive-class {
+    font-size: 2.5rem;
   }
   
+  .responsive-button {
+    margin-top: 430px;
+  }
+
+
 }
