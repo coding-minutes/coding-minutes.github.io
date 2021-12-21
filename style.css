@@ -190,8 +190,13 @@ body {
 
 .btn-gradient-primary:hover {
   animation: button-gradient 3s ease infinite;
-  color: white;
+  color: #5848EA;
+  border-color: #5848EA;
+  background: transparent;
+  border-radius: 50rem !important;
+  border: 1px solid#5848EA;
 }
+
 
 .tag {
   color: white;
