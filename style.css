@@ -405,10 +405,8 @@ body {
 }
 
 
-.cm-christmas-meme{
+.cm_meme{
   text-align: center !important;
-  justify-content: center !important;
-  align-items: center !important;
   margin: auto !important;
   margin-top: 10% !important;
   margin-bottom: 10% !important;
