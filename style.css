@@ -406,7 +406,20 @@ body {
 
 
 .cm-christmas-meme{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   margin-top: 10%;
   margin-bottom: 10%;
 }
+
+/* .christmas-meme{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+} */
