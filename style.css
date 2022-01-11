@@ -153,7 +153,23 @@ body {
   border: 1px solid#5848EA;
 }
 
+.discord-static-btn {
+  color: #5848EA;
+  border-color: #5848EA;
+  background-color: white !important;
+  border-radius: 50rem !important;
+  border: 1px solid#5848EA;
+}
+
 .btn-static:hover {
+  color: white;
+  border-color: white;
+  background: var(--primary-gradient-purple);
+  border-radius: 50rem !important;
+  border: 1px solid white;
+}
+
+.discord-static-btn:hover {
   color: white;
   border-color: white;
   background: var(--primary-gradient-purple);
@@ -174,8 +190,13 @@ body {
 
 .btn-gradient-primary:hover {
   animation: button-gradient 3s ease infinite;
-  color: white;
+  color: #5848EA;
+  border-color: #5848EA;
+  background: transparent;
+  border-radius: 50rem !important;
+  border: 1px solid#5848EA;
 }
+
 
 .tag {
   color: white;
@@ -361,3 +382,25 @@ body {
   }
 
 }
+
+
+
+@media screen and (max-width: 450px) {
+
+  .discord{
+   position: absolute;
+   left: 10%;
+   width: 280px;
+   height: 450px;
+   margin: auto;
+  }
+
+  /* .responsive-class {
+    font-size: 2.5rem !important;
+  } */
+  
+  .responsive-button {
+    margin-top: 430px;
+  }
+}
+
