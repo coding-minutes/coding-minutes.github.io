@@ -304,6 +304,10 @@ body {
     margin-top: 20px;;
   }
 
+  .girl {
+    margin-right: 15%;
+  }
+
   .boy{
     height: 200px;
   }
@@ -472,11 +476,6 @@ body {
     padding-left: 0;
   }
 
-  .girl {
-    text-align: center;
-    justify-content: center;
-    
-  }
 }
 
 @media screen and (max-width: 575px){
