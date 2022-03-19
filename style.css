@@ -304,10 +304,6 @@ body {
     margin-top: 20px;;
   }
 
-  .girl{
-    height: 200px;
-  }
-
   .boy{
     height: 200px;
   }
@@ -474,6 +470,11 @@ body {
   .scaler-section__text  {
     margin-left: 0;
     padding-left: 0;
+  }
+
+  .girl {
+    /* text-align: center; */
+    justify-content: center;
   }
 }
 
