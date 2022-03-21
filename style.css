@@ -292,7 +292,7 @@ body {
   }
 
   .girl {
-    /* margin-right: 15%; */
+    margin-right: 15%;
   }
 
   .boy{
@@ -376,12 +376,12 @@ body {
 
 @media screen and (max-width: 450px) {
 
-  .discord{
-   position: absolute;
-   left: 10%;
-   width: 280px;
-   height: 450px;
-   margin: auto;
+.discord{
+    position: absolute;
+    left: 10%;
+    width: 280px;
+    height: 450px;
+    margin: auto;
   }
 
   /* .responsive-class {
