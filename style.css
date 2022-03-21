@@ -274,7 +274,7 @@ body {
 .boy{
   height: 400px;
 }
-.girl{
+#cov-banner {
   height: 400px;
 }
 
@@ -361,10 +361,8 @@ body {
     margin-top: 20px;;
   }
 
-  .girl {
-    /* margin-right: 15%;
-    height: 200px !important;  */
-    display: none;
+  #cov-banner {
+    height: 200px;
   }
 
   .boy{
