@@ -362,8 +362,9 @@ body {
   }
 
   .girl {
-    margin-right: 15%;
-    height: 200px !important; 
+    /* margin-right: 15%;
+    height: 200px !important;  */
+    display: none;
   }
 
   .boy{
