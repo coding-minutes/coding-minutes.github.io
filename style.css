@@ -284,26 +284,7 @@ body {
 
 
 
-@media screen and (max-width:500px){
-  .video-play{
-    width: 392px;
-    height:220px;
-    margin-top: 20px;;
-  }
 
-  .girl {
-    margin-right: 15%;
-    height: 200px !important; 
-  }
-
-  .boy{
-    height: 200px;
-  }
-
-  #google-signup{
-    width : 140px; 
-  }
-}
 
 
 @keyframes floating {
@@ -373,6 +354,26 @@ body {
 
 }
 
+@media screen and (max-width:500px){
+  .video-play{
+    width: 392px;
+    height:220px;
+    margin-top: 20px;;
+  }
+
+  .girl {
+    margin-right: 15%;
+    height: 200px !important; 
+  }
+
+  .boy{
+    height: 200px;
+  }
+
+  #google-signup{
+    width : 140px; 
+  }
+}
 
 
 @media screen and (max-width: 450px) {
